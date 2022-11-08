@@ -1,0 +1,20 @@
+#GET http://localhost:8080/ebook/list?page=1&size=1001
+
+GET http://localhost:8080/ebook/list?name=Spring
+
+
+###
+
+POST http://localhost:8080/ebook/save
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:8080/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
