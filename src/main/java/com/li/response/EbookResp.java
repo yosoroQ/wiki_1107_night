@@ -1,6 +1,6 @@
 package com.li.response;
 
-public class EbookQueryResp {
+public class EbookResp {
     private Long id;
 
     private String name;
