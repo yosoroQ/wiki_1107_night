@@ -1,5 +1,6 @@
 package com.li.service;
 
+import com.github.pagehelper.PageHelper;
 import com.li.entity.Ebook;
 import com.li.entity.EbookExample;
 import com.li.mapper.EbookMapper;
@@ -20,6 +21,11 @@ public class EbookService {
     private EbookMapper ebookMapper;
 
     public List<EbookResp> list(EbookReq req) {
+
+        //分页-----------------------------
+        PageHelper.startPage(1,3);
+        //分页-----------------------------
+
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
         if (!ObjectUtils.isEmpty(req.getName())) {

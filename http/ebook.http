@@ -1,6 +1,6 @@
 #GET http://localhost:8080/ebook/list?page=1&size=1001
 
-GET http://localhost:8080/ebook/list?name=Spring
+GET http://localhost:8080/ebook/list
 
 
 ###
