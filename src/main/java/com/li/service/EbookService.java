@@ -37,6 +37,9 @@ public class EbookService {
         if (!ObjectUtils.isEmpty(req.getName())) {
             criteria.andNameLike("%" + req.getName() + "%");
         }
+        if (!ObjectUtils.isEmpty(req.getCategoryId2())) {
+            criteria.andCategory2IdEqualTo(req.getCategoryId2());
+        }
         PageHelper.startPage(req.getPage(), req.getSize());
         List<Ebook> ebookList = ebookMapper.selectByExample(ebookExample);
 
@@ -63,9 +66,6 @@ public class EbookService {
         if (ObjectUtils.isEmpty(req.getId())) {
             // 新增
             ebook.setId(snowFlake.nextId());
-            ebook.setDocCount(0);
-            ebook.setViewCount(0);
-            ebook.setVoteCount(0);
             ebookMapper.insert(ebook);
         } else {
             // 更新
