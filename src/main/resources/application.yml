@@ -17,3 +17,7 @@ mybatis:
     map-underscore-to-camel-case: true  # 开启下划线转驼峰
   type-aliases-package: com.li.entity # 实体类起别名
 
+#Redis相关配置
+  redis:
+    host: localhost
+    port: 6379
