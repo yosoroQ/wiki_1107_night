@@ -23,7 +23,7 @@ mybatis:
     port: 6379
 
 #rocketmq相关配置
-rocketmq:
-  name-server: 127.0.0.1:9876
-  producer:
-    group: default
+  #rocketmq:
+  #name-server: 127.0.0.1:9876
+    #producer:
+    #group: default
