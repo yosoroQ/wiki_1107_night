@@ -1,0 +1,167 @@
+2023-02-17 21:52:31.770 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2023-02-17 21:52:31.788 INFO  com.li.Wiki1107NightApplication                   :55   [32m                  [0;39m Starting Wiki1107NightApplication on DESKTOP-V6GQHHS with PID 15744 (D:\git\wiki_1107_night\target\classes started by one in D:\git\wiki_1107_night)
+2023-02-17 21:52:31.788 INFO  com.li.Wiki1107NightApplication                   :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-02-17 21:52:31.839 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-17 21:52:31.840 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-17 21:52:32.507 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-17 21:52:32.510 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-17 21:52:32.552 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2023-02-17 21:52:32.668 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'categoryMapper' and 'com.li.mapper.CategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.668 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'contentMapper' and 'com.li.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.668 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'demoMapper' and 'com.li.mapper.DemoMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapper' and 'com.li.mapper.DocMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapperCust' and 'com.li.mapper.DocMapperCust' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'ebookMapper' and 'com.li.mapper.EbookMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'testMapper' and 'com.li.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'userMapper' and 'com.li.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.li.mapper]' package. Please check your configuration.
+2023-02-17 21:52:33.304 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-02-17 21:52:33.314 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-17 21:52:33.315 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-02-17 21:52:33.316 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-17 21:52:33.397 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-02-17 21:52:33.398 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1558 ms
+2023-02-17 21:52:34.362 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-17 21:52:34.698 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2023-02-17 21:52:34.742 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-02-17 21:52:34.801 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-02-17 21:52:34.827 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-17 21:52:34.838 INFO  com.li.Wiki1107NightApplication                   :61   [32m                  [0;39m Started Wiki1107NightApplication in 3.487 seconds (JVM running for 4.077)
+2023-02-17 21:52:35.014 INFO  com.li.job.DocJob                                 :31   [32m281784898086375424[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:52:35.032 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m281784898086375424[0;39m HikariPool-1 - Starting...
+2023-02-17 21:52:35.254 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m281784898086375424[0;39m HikariPool-1 - Start completed.
+2023-02-17 21:52:35.347 INFO  com.li.job.DocJob                                 :34   [32m281784898086375424[0;39m 更新电子书下的文档数据结束，耗时：332毫秒
+2023-02-17 21:53:05.013 INFO  com.li.job.DocJob                                 :31   [32m281785023911301120[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:53:05.016 INFO  com.li.job.DocJob                                 :34   [32m281785023911301120[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:53:35.013 INFO  com.li.job.DocJob                                 :31   [32m281785149740421120[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:53:35.015 INFO  com.li.job.DocJob                                 :34   [32m281785149740421120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:54:05.004 INFO  com.li.job.DocJob                                 :31   [32m281785275531792384[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:54:05.007 INFO  com.li.job.DocJob                                 :34   [32m281785275531792384[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:54:35.007 INFO  com.li.job.DocJob                                 :31   [32m281785401373495296[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:54:35.009 INFO  com.li.job.DocJob                                 :34   [32m281785401373495296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:55:05.007 INFO  com.li.job.DocJob                                 :31   [32m281785527202615296[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:55:05.010 INFO  com.li.job.DocJob                                 :34   [32m281785527202615296[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:55:35.009 INFO  com.li.job.DocJob                                 :31   [32m281785653040123904[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:55:35.011 INFO  com.li.job.DocJob                                 :34   [32m281785653040123904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:55:38.123 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 21:55:38.124 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-02-17 21:55:38.135 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 11 ms
+2023-02-17 21:55:38.245 INFO  com.li.websocket.WebSocketServer                  :32   [32m                  [0;39m 有新连接：token：Itelg6xCOu，session id：0，当前连接数：1
+2023-02-17 21:55:42.361 INFO  com.li.service.EbookService                       :47   [32m                  [0;39m 总行数：1
+2023-02-17 21:55:42.362 INFO  com.li.service.EbookService                       :48   [32m                  [0;39m 总页数：1
+2023-02-17 21:55:44.305 INFO  com.li.utils.RedisUtil                            :28   [32m                  [0;39m key已存在：DOC_VOTE_1_null
+2023-02-17 21:55:44.306 WARN  com.li.controller.ControllerExceptionHandler      :44   [32m                  [0;39m 业务异常：您已点赞过
+2023-02-17 21:55:44.308 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.li.exception.BusinessException: 您已点赞过]
+2023-02-17 21:55:46.886 INFO  com.li.utils.RedisUtil                            :31   [32m                  [0;39m key不存在，放入：DOC_VOTE_281029403826327550_null，过期 86400 秒
+2023-02-17 21:55:46.935 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+java.lang.NullPointerException: Cannot invoke "com.li.entity.Doc.getName()" because "docDb" is null
+	at com.li.service.DocService.vote(DocService.java:153)
+	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$f3389bcc.vote(<generated>)
+	at com.li.controller.DocController.vote(DocController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-02-17 21:55:46.937 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [java.lang.NullPointerException: Cannot invoke "com.li.entity.Doc.getName()" because "docDb" is null]
+2023-02-17 21:55:50.337 INFO  com.li.utils.RedisUtil                            :31   [32m                  [0;39m key不存在，放入：DOC_VOTE_4_null，过期 86400 秒
+2023-02-17 21:55:50.386 INFO  com.li.websocket.WebSocketServer                  :71   [32m                  [0;39m 推送消息：Itelg6xCOu，内容：【文档2.1】被点赞！
+2023-02-17 21:55:54.160 INFO  com.li.websocket.WebSocketServer                  :41   [32m                  [0;39m 连接关闭，token：Itelg6xCOu，session id：0！当前连接数：0
+2023-02-17 21:56:05.007 INFO  com.li.job.DocJob                                 :31   [32m281785778860855296[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:56:05.013 INFO  com.li.job.DocJob                                 :34   [32m281785778860855296[0;39m 更新电子书下的文档数据结束，耗时：6毫秒
+2023-02-17 21:56:35.001 INFO  com.li.job.DocJob                                 :31   [32m281785904664809472[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:56:35.003 INFO  com.li.job.DocJob                                 :34   [32m281785904664809472[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:57:05.013 INFO  com.li.job.DocJob                                 :31   [32m281786030544261120[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:57:05.016 INFO  com.li.job.DocJob                                 :34   [32m281786030544261120[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:57:35.006 INFO  com.li.job.DocJob                                 :31   [32m281786156344020992[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:57:35.009 INFO  com.li.job.DocJob                                 :34   [32m281786156344020992[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:58:05.004 INFO  com.li.job.DocJob                                 :31   [32m281786282164752384[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:58:05.007 INFO  com.li.job.DocJob                                 :34   [32m281786282164752384[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:58:35.008 INFO  com.li.job.DocJob                                 :31   [32m281786408010649600[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:58:35.010 INFO  com.li.job.DocJob                                 :34   [32m281786408010649600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:59:05.008 INFO  com.li.job.DocJob                                 :31   [32m281786533839769600[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:59:05.010 INFO  com.li.job.DocJob                                 :34   [32m281786533839769600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:59:35.011 INFO  com.li.job.DocJob                                 :31   [32m281786659681472512[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:59:35.013 INFO  com.li.job.DocJob                                 :34   [32m281786659681472512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:00:05.011 INFO  com.li.job.DocJob                                 :31   [32m281786785510592512[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:00:05.014 INFO  com.li.job.DocJob                                 :34   [32m281786785510592512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:00:35.007 INFO  com.li.job.DocJob                                 :31   [32m281786911322935296[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:00:35.010 INFO  com.li.job.DocJob                                 :34   [32m281786911322935296[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:01:05.015 INFO  com.li.job.DocJob                                 :31   [32m281787037185609728[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:01:05.018 INFO  com.li.job.DocJob                                 :34   [32m281787037185609728[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:01:35.016 INFO  com.li.job.DocJob                                 :31   [32m281787163018924032[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:01:35.018 INFO  com.li.job.DocJob                                 :34   [32m281787163018924032[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:02:05.004 INFO  com.li.job.DocJob                                 :31   [32m281787288797712384[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:02:05.007 INFO  com.li.job.DocJob                                 :34   [32m281787288797712384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:02:35.007 INFO  com.li.job.DocJob                                 :31   [32m281787414639415296[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:02:35.010 INFO  com.li.job.DocJob                                 :34   [32m281787414639415296[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:03:05.013 INFO  com.li.job.DocJob                                 :31   [32m281787540493701120[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:03:05.015 INFO  com.li.job.DocJob                                 :34   [32m281787540493701120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:03:35.009 INFO  com.li.job.DocJob                                 :31   [32m281787666306043904[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:03:35.011 INFO  com.li.job.DocJob                                 :34   [32m281787666306043904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:04:05.013 INFO  com.li.job.DocJob                                 :31   [32m281787792151941120[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:04:05.015 INFO  com.li.job.DocJob                                 :34   [32m281787792151941120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:04:35.014 INFO  com.li.job.DocJob                                 :31   [32m281787917985255424[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:04:35.016 INFO  com.li.job.DocJob                                 :34   [32m281787917985255424[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:05:05.014 INFO  com.li.job.DocJob                                 :31   [32m281788043814375424[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:05:05.017 INFO  com.li.job.DocJob                                 :34   [32m281788043814375424[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:05:35.004 INFO  com.li.job.DocJob                                 :31   [32m281788169601552384[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:05:35.006 INFO  com.li.job.DocJob                                 :34   [32m281788169601552384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:06:05.009 INFO  com.li.job.DocJob                                 :31   [32m281788295451643904[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:06:05.011 INFO  com.li.job.DocJob                                 :34   [32m281788295451643904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:06:35.009 INFO  com.li.job.DocJob                                 :31   [32m281788421280763904[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:06:35.012 INFO  com.li.job.DocJob                                 :34   [32m281788421280763904[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:07:05.011 INFO  com.li.job.DocJob                                 :31   [32m281788547118272512[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:07:05.014 INFO  com.li.job.DocJob                                 :34   [32m281788547118272512[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:07:35.001 INFO  com.li.job.DocJob                                 :31   [32m281788672905449472[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:07:35.003 INFO  com.li.job.DocJob                                 :34   [32m281788672905449472[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:08:05.001 INFO  com.li.job.DocJob                                 :31   [32m281788798734569472[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:08:05.003 INFO  com.li.job.DocJob                                 :34   [32m281788798734569472[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
