@@ -1,4 +1,234 @@
-2023-02-18 17:18:45.254 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 21:52:31.770 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2023-02-17 21:52:31.788 INFO  com.li.Wiki1107NightApplication                   :55   [32m                  [0;39m Starting Wiki1107NightApplication on DESKTOP-V6GQHHS with PID 15744 (D:\git\wiki_1107_night\target\classes started by one in D:\git\wiki_1107_night)
+2023-02-17 21:52:31.788 INFO  com.li.Wiki1107NightApplication                   :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-02-17 21:52:31.839 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-17 21:52:31.840 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-17 21:52:32.507 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-17 21:52:32.510 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-17 21:52:32.552 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2023-02-17 21:52:32.668 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'categoryMapper' and 'com.li.mapper.CategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.668 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'contentMapper' and 'com.li.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.668 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'demoMapper' and 'com.li.mapper.DemoMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapper' and 'com.li.mapper.DocMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapperCust' and 'com.li.mapper.DocMapperCust' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'ebookMapper' and 'com.li.mapper.EbookMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'testMapper' and 'com.li.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'userMapper' and 'com.li.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 21:52:32.669 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.li.mapper]' package. Please check your configuration.
+2023-02-17 21:52:33.304 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-02-17 21:52:33.314 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-17 21:52:33.315 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-02-17 21:52:33.316 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-17 21:52:33.397 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-02-17 21:52:33.398 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1558 ms
+2023-02-17 21:52:34.362 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-17 21:52:34.698 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2023-02-17 21:52:34.742 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-02-17 21:52:34.801 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-02-17 21:52:34.827 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-17 21:52:34.838 INFO  com.li.Wiki1107NightApplication                   :61   [32m                  [0;39m Started Wiki1107NightApplication in 3.487 seconds (JVM running for 4.077)
+2023-02-17 21:52:35.014 INFO  com.li.job.DocJob                                 :31   [32m281784898086375424[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:52:35.032 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m281784898086375424[0;39m HikariPool-1 - Starting...
+2023-02-17 21:52:35.254 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m281784898086375424[0;39m HikariPool-1 - Start completed.
+2023-02-17 21:52:35.347 INFO  com.li.job.DocJob                                 :34   [32m281784898086375424[0;39m 更新电子书下的文档数据结束，耗时：332毫秒
+2023-02-17 21:53:05.013 INFO  com.li.job.DocJob                                 :31   [32m281785023911301120[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:53:05.016 INFO  com.li.job.DocJob                                 :34   [32m281785023911301120[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:53:35.013 INFO  com.li.job.DocJob                                 :31   [32m281785149740421120[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:53:35.015 INFO  com.li.job.DocJob                                 :34   [32m281785149740421120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:54:05.004 INFO  com.li.job.DocJob                                 :31   [32m281785275531792384[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:54:05.007 INFO  com.li.job.DocJob                                 :34   [32m281785275531792384[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:54:35.007 INFO  com.li.job.DocJob                                 :31   [32m281785401373495296[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:54:35.009 INFO  com.li.job.DocJob                                 :34   [32m281785401373495296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:55:05.007 INFO  com.li.job.DocJob                                 :31   [32m281785527202615296[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:55:05.010 INFO  com.li.job.DocJob                                 :34   [32m281785527202615296[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:55:35.009 INFO  com.li.job.DocJob                                 :31   [32m281785653040123904[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:55:35.011 INFO  com.li.job.DocJob                                 :34   [32m281785653040123904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:55:38.123 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 21:55:38.124 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-02-17 21:55:38.135 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 11 ms
+2023-02-17 21:55:38.245 INFO  com.li.websocket.WebSocketServer                  :32   [32m                  [0;39m 有新连接：token：Itelg6xCOu，session id：0，当前连接数：1
+2023-02-17 21:55:42.361 INFO  com.li.service.EbookService                       :47   [32m                  [0;39m 总行数：1
+2023-02-17 21:55:42.362 INFO  com.li.service.EbookService                       :48   [32m                  [0;39m 总页数：1
+2023-02-17 21:55:44.305 INFO  com.li.utils.RedisUtil                            :28   [32m                  [0;39m key已存在：DOC_VOTE_1_null
+2023-02-17 21:55:44.306 WARN  com.li.controller.ControllerExceptionHandler      :44   [32m                  [0;39m 业务异常：您已点赞过
+2023-02-17 21:55:44.308 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.li.exception.BusinessException: 您已点赞过]
+2023-02-17 21:55:46.886 INFO  com.li.utils.RedisUtil                            :31   [32m                  [0;39m key不存在，放入：DOC_VOTE_281029403826327550_null，过期 86400 秒
+2023-02-17 21:55:46.935 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+java.lang.NullPointerException: Cannot invoke "com.li.entity.Doc.getName()" because "docDb" is null
+	at com.li.service.DocService.vote(DocService.java:153)
+	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$f3389bcc.vote(<generated>)
+	at com.li.controller.DocController.vote(DocController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-02-17 21:55:46.937 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [java.lang.NullPointerException: Cannot invoke "com.li.entity.Doc.getName()" because "docDb" is null]
+2023-02-17 21:55:50.337 INFO  com.li.utils.RedisUtil                            :31   [32m                  [0;39m key不存在，放入：DOC_VOTE_4_null，过期 86400 秒
+2023-02-17 21:55:50.386 INFO  com.li.websocket.WebSocketServer                  :71   [32m                  [0;39m 推送消息：Itelg6xCOu，内容：【文档2.1】被点赞！
+2023-02-17 21:55:54.160 INFO  com.li.websocket.WebSocketServer                  :41   [32m                  [0;39m 连接关闭，token：Itelg6xCOu，session id：0！当前连接数：0
+2023-02-17 21:56:05.007 INFO  com.li.job.DocJob                                 :31   [32m281785778860855296[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:56:05.013 INFO  com.li.job.DocJob                                 :34   [32m281785778860855296[0;39m 更新电子书下的文档数据结束，耗时：6毫秒
+2023-02-17 21:56:35.001 INFO  com.li.job.DocJob                                 :31   [32m281785904664809472[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:56:35.003 INFO  com.li.job.DocJob                                 :34   [32m281785904664809472[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:57:05.013 INFO  com.li.job.DocJob                                 :31   [32m281786030544261120[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:57:05.016 INFO  com.li.job.DocJob                                 :34   [32m281786030544261120[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:57:35.006 INFO  com.li.job.DocJob                                 :31   [32m281786156344020992[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:57:35.009 INFO  com.li.job.DocJob                                 :34   [32m281786156344020992[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:58:05.004 INFO  com.li.job.DocJob                                 :31   [32m281786282164752384[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:58:05.007 INFO  com.li.job.DocJob                                 :34   [32m281786282164752384[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 21:58:35.008 INFO  com.li.job.DocJob                                 :31   [32m281786408010649600[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:58:35.010 INFO  com.li.job.DocJob                                 :34   [32m281786408010649600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:59:05.008 INFO  com.li.job.DocJob                                 :31   [32m281786533839769600[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:59:05.010 INFO  com.li.job.DocJob                                 :34   [32m281786533839769600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 21:59:35.011 INFO  com.li.job.DocJob                                 :31   [32m281786659681472512[0;39m 更新电子书下的文档数据开始
+2023-02-17 21:59:35.013 INFO  com.li.job.DocJob                                 :34   [32m281786659681472512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:00:05.011 INFO  com.li.job.DocJob                                 :31   [32m281786785510592512[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:00:05.014 INFO  com.li.job.DocJob                                 :34   [32m281786785510592512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:00:35.007 INFO  com.li.job.DocJob                                 :31   [32m281786911322935296[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:00:35.010 INFO  com.li.job.DocJob                                 :34   [32m281786911322935296[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:01:05.015 INFO  com.li.job.DocJob                                 :31   [32m281787037185609728[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:01:05.018 INFO  com.li.job.DocJob                                 :34   [32m281787037185609728[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:01:35.016 INFO  com.li.job.DocJob                                 :31   [32m281787163018924032[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:01:35.018 INFO  com.li.job.DocJob                                 :34   [32m281787163018924032[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:02:05.004 INFO  com.li.job.DocJob                                 :31   [32m281787288797712384[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:02:05.007 INFO  com.li.job.DocJob                                 :34   [32m281787288797712384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:02:35.007 INFO  com.li.job.DocJob                                 :31   [32m281787414639415296[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:02:35.010 INFO  com.li.job.DocJob                                 :34   [32m281787414639415296[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:03:05.013 INFO  com.li.job.DocJob                                 :31   [32m281787540493701120[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:03:05.015 INFO  com.li.job.DocJob                                 :34   [32m281787540493701120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:03:35.009 INFO  com.li.job.DocJob                                 :31   [32m281787666306043904[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:03:35.011 INFO  com.li.job.DocJob                                 :34   [32m281787666306043904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:04:05.013 INFO  com.li.job.DocJob                                 :31   [32m281787792151941120[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:04:05.015 INFO  com.li.job.DocJob                                 :34   [32m281787792151941120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:04:35.014 INFO  com.li.job.DocJob                                 :31   [32m281787917985255424[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:04:35.016 INFO  com.li.job.DocJob                                 :34   [32m281787917985255424[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:05:05.014 INFO  com.li.job.DocJob                                 :31   [32m281788043814375424[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:05:05.017 INFO  com.li.job.DocJob                                 :34   [32m281788043814375424[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:05:35.004 INFO  com.li.job.DocJob                                 :31   [32m281788169601552384[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:05:35.006 INFO  com.li.job.DocJob                                 :34   [32m281788169601552384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:06:05.009 INFO  com.li.job.DocJob                                 :31   [32m281788295451643904[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:06:05.011 INFO  com.li.job.DocJob                                 :34   [32m281788295451643904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:06:35.009 INFO  com.li.job.DocJob                                 :31   [32m281788421280763904[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:06:35.012 INFO  com.li.job.DocJob                                 :34   [32m281788421280763904[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:07:05.011 INFO  com.li.job.DocJob                                 :31   [32m281788547118272512[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:07:05.014 INFO  com.li.job.DocJob                                 :34   [32m281788547118272512[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 22:07:35.001 INFO  com.li.job.DocJob                                 :31   [32m281788672905449472[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:07:35.003 INFO  com.li.job.DocJob                                 :34   [32m281788672905449472[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 22:08:05.001 INFO  com.li.job.DocJob                                 :31   [32m281788798734569472[0;39m 更新电子书下的文档数据开始
+2023-02-17 22:08:05.003 INFO  com.li.job.DocJob                                 :34   [32m281788798734569472[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 23:43:03.963 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2023-02-17 23:43:04.003 INFO  com.li.Wiki1107NightApplication                   :55   [32m                  [0;39m Starting Wiki1107NightApplication on DESKTOP-V6GQHHS with PID 4560 (D:\git\wiki_1107_night\target\classes started by one in D:\git\wiki_1107_night)
+2023-02-17 23:43:04.045 INFO  com.li.Wiki1107NightApplication                   :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-02-17 23:43:04.266 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-17 23:43:04.266 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-17 23:43:09.282 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-17 23:43:09.285 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-17 23:43:09.356 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2023-02-17 23:43:09.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'categoryMapper' and 'com.li.mapper.CategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'contentMapper' and 'com.li.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'demoMapper' and 'com.li.mapper.DemoMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapper' and 'com.li.mapper.DocMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.459 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapperCust' and 'com.li.mapper.DocMapperCust' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.460 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'ebookMapper' and 'com.li.mapper.EbookMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.460 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'testMapper' and 'com.li.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.460 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'userMapper' and 'com.li.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:43:09.460 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.li.mapper]' package. Please check your configuration.
+2023-02-17 23:43:09.693 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$25db414b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.716 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.882 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.884 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.885 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.887 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.890 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.891 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.893 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.978 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.979 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.997 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:09.998 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:10.002 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:10.003 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:10.051 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:10.588 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:10.590 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 23:43:12.101 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-02-17 23:43:12.124 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-17 23:43:12.125 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-02-17 23:43:12.125 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-17 23:43:12.473 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-02-17 23:43:12.473 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 8206 ms
+2023-02-17 23:43:16.001 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-17 23:43:17.048 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2023-02-17 23:43:17.130 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-02-17 23:43:17.354 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2023-02-17 23:43:17.354 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2023-02-17 23:43:17.364 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-02-17 23:43:17.406 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-17 23:43:17.454 INFO  com.li.Wiki1107NightApplication                   :61   [32m                  [0;39m Started Wiki1107NightApplication in 14.939 seconds (JVM running for 17.74)
+2023-02-17 23:43:35.000 INFO  com.li.job.DocJob                                 :31   [32m281812832092295168[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:43:35.095 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m281812832092295168[0;39m HikariPool-1 - Starting...
+2023-02-17 23:43:37.385 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m281812832092295168[0;39m HikariPool-1 - Start completed.
+2023-02-17 23:43:37.453 INFO  com.li.job.DocJob                                 :34   [32m281812832092295168[0;39m 更新电子书下的文档数据结束，耗时：2453毫秒
+2023-02-17 23:44:05.013 INFO  com.li.job.DocJob                                 :31   [32m281812957975941120[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:44:05.016 INFO  com.li.job.DocJob                                 :34   [32m281812957975941120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2023-02-17 23:44:35.001 INFO  com.li.job.DocJob                                 :31   [32m281813083754729472[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:44:35.006 INFO  com.li.job.DocJob                                 :34   [32m281813083754729472[0;39m 更新电子书下的文档数据结束，耗时：5毫秒
+2023-02-17 23:44:47.530 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 23:44:47.530 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-02-17 23:44:47.619 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 88 ms
+2023-02-17 23:44:47.810 INFO  com.li.websocket.WebSocketServer                  :32   [32m                  [0;39m 有新连接：token：CPAWYupHkm，session id：0，当前连接数：1
+2023-02-17 23:44:49.573 INFO  com.li.service.EbookService                       :47   [32m                  [0;39m 总行数：1
+2023-02-17 23:44:49.573 INFO  com.li.service.EbookService                       :48   [32m                  [0;39m 总页数：1
+2023-02-17 23:44:54.024 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -13,11 +243,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -94,7 +324,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:18:47.300 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:44:54.047 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:44:56.096 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -109,11 +340,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -190,7 +421,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:18:49.338 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:44:56.099 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:44:58.141 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -205,11 +437,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -286,7 +518,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:18:51.371 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:44:58.143 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:00.178 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -301,11 +534,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -382,7 +615,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:18:53.413 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:45:00.180 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:02.201 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -397,11 +631,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -478,7 +712,10 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:18:55.466 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:45:02.203 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:05.002 INFO  com.li.job.DocJob                                 :31   [32m281813209588043776[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:45:05.007 INFO  com.li.job.DocJob                                 :34   [32m281813209588043776[0;39m 更新电子书下的文档数据结束，耗时：5毫秒
+2023-02-17 23:45:15.521 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -493,11 +730,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -574,7 +811,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:18:57.507 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:45:15.643 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:17.578 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -589,11 +827,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -670,7 +908,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:19:05.452 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:45:17.582 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:19.598 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -685,11 +924,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
 	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
 	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
-	at com.li.service.DocService.vote(DocService.java:155)
+	at com.li.service.DocService.vote(DocService.java:146)
 	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.li.service.DocService$$EnhancerBySpringCGLIB$$c910fbdb.vote(<generated>)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
 	at com.li.controller.DocController.vote(DocController.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -766,7 +1005,106 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:19:11.096 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:45:19.600 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:20.921 INFO  com.li.controller.UserController                  :77   [32m                  [0;39m 生成单点登录token：281813276357169152，并放入redis中
+2023-02-17 23:45:21.639 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1228)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1211)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:975)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:360)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:134)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:97)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:84)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:215)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
+	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
+	at com.li.service.DocService.vote(DocService.java:146)
+	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
+	at com.li.controller.DocController.vote(DocController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:242)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:206)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1440)
+	... 67 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-02-17 23:45:21.640 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:23.675 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -857,7 +1195,203 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:19:48.018 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+2023-02-17 23:45:23.676 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:25.222 INFO  com.li.controller.UserController                  :77   [32m                  [0;39m 生成单点登录token：281813294396870656，并放入redis中
+2023-02-17 23:45:25.697 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1228)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1211)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:975)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:360)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:134)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:97)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:84)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:215)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
+	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
+	at com.li.service.DocService.vote(DocService.java:146)
+	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
+	at com.li.controller.DocController.vote(DocController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:242)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:206)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1440)
+	... 67 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-02-17 23:45:25.699 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:27.731 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1228)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1211)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:975)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:360)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:134)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:97)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:84)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:215)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:773)
+	at com.li.utils.RedisUtil.validateRepeat(RedisUtil.java:27)
+	at com.li.service.DocService.vote(DocService.java:146)
+	at com.li.service.DocService$$FastClassBySpringCGLIB$$493bfeba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.li.service.DocService$$EnhancerBySpringCGLIB$$bbb42dc2.vote(<generated>)
+	at com.li.controller.DocController.vote(DocController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:242)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:206)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1440)
+	... 67 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-02-17 23:45:27.733 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:29.773 ERROR com.li.controller.ControllerExceptionHandler      :59   [32m                  [0;39m 系统异常：
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
@@ -948,31 +1482,81 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2023-02-18 17:25:16.848 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2023-02-18 17:26:06.521 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
+2023-02-17 23:45:29.774 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379]
+2023-02-17 23:45:35.001 INFO  com.li.job.DocJob                                 :31   [32m281813335412969472[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:45:35.004 INFO  com.li.job.DocJob                                 :34   [32m281813335412969472[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 23:45:57.172 INFO  com.li.websocket.WebSocketServer                  :41   [32m                  [0;39m 连接关闭，token：CPAWYupHkm，session id：0！当前连接数：0
+2023-02-17 23:45:59.444 INFO  com.li.websocket.WebSocketServer                  :32   [32m                  [0;39m 有新连接：token：I3SSDZdOpb，session id：1，当前连接数：1
+2023-02-17 23:46:00.418 INFO  com.li.utils.RedisUtil                            :28   [32m                  [0;39m key已存在：DOC_VOTE_1_null
+2023-02-17 23:46:00.419 WARN  com.li.controller.ControllerExceptionHandler      :44   [32m                  [0;39m 业务异常：您已点赞过
+2023-02-17 23:46:00.421 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.li.exception.BusinessException: 您已点赞过]
+2023-02-17 23:46:03.699 INFO  com.li.utils.RedisUtil                            :28   [32m                  [0;39m key已存在：DOC_VOTE_281029403826327550_null
+2023-02-17 23:46:03.699 WARN  com.li.controller.ControllerExceptionHandler      :44   [32m                  [0;39m 业务异常：您已点赞过
+2023-02-17 23:46:03.700 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.li.exception.BusinessException: 您已点赞过]
+2023-02-17 23:46:05.001 INFO  com.li.job.DocJob                                 :31   [32m281813461242089472[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:46:05.007 INFO  com.li.job.DocJob                                 :34   [32m281813461242089472[0;39m 更新电子书下的文档数据结束，耗时：6毫秒
+2023-02-17 23:46:05.615 INFO  com.li.utils.RedisUtil                            :28   [32m                  [0;39m key已存在：DOC_VOTE_4_null
+2023-02-17 23:46:05.615 WARN  com.li.controller.ControllerExceptionHandler      :44   [32m                  [0;39m 业务异常：您已点赞过
+2023-02-17 23:46:05.616 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.li.exception.BusinessException: 您已点赞过]
+2023-02-17 23:46:07.110 INFO  com.li.utils.RedisUtil                            :28   [32m                  [0;39m key已存在：DOC_VOTE_4_null
+2023-02-17 23:46:07.111 WARN  com.li.controller.ControllerExceptionHandler      :44   [32m                  [0;39m 业务异常：您已点赞过
+2023-02-17 23:46:07.112 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [com.li.exception.BusinessException: 您已点赞过]
+2023-02-17 23:46:08.878 INFO  com.li.utils.RedisUtil                            :31   [32m                  [0;39m key不存在，放入：DOC_VOTE_6_null，过期 5000 秒
+2023-02-17 23:46:16.948 INFO  com.li.websocket.WebSocketServer                  :41   [32m                  [0;39m 连接关闭，token：I3SSDZdOpb，session id：1！当前连接数：0
+2023-02-17 23:46:17.531 INFO  com.li.rocketmq.VoteTopicConsumer                 :25   [32m                  [0;39m ROCKETMQ收到消息：【文档2.2.1】被点赞！
+2023-02-17 23:46:35.001 INFO  com.li.job.DocJob                                 :31   [32m281813587071209472[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:46:35.006 INFO  com.li.job.DocJob                                 :34   [32m281813587071209472[0;39m 更新电子书下的文档数据结束，耗时：5毫秒
+2023-02-17 23:47:05.002 INFO  com.li.job.DocJob                                 :31   [32m281813712904523776[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:47:05.005 INFO  com.li.job.DocJob                                 :34   [32m281813712904523776[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 23:47:35.002 INFO  com.li.job.DocJob                                 :31   [32m281813838733643776[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:47:35.005 INFO  com.li.job.DocJob                                 :34   [32m281813838733643776[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 23:48:05.001 INFO  com.li.job.DocJob                                 :31   [32m281813964558569472[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:48:05.004 INFO  com.li.job.DocJob                                 :34   [32m281813964558569472[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2023-02-17 23:51:40.383 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2023-02-17 23:51:40.400 INFO  com.li.Wiki1107NightApplication                   :55   [32m                  [0;39m Starting Wiki1107NightApplication on DESKTOP-V6GQHHS with PID 1516 (D:\git\wiki_1107_night\target\classes started by one in D:\git\wiki_1107_night)
+2023-02-17 23:51:40.401 INFO  com.li.Wiki1107NightApplication                   :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-02-17 23:51:40.455 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-17 23:51:40.456 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-17 23:51:41.222 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-17 23:51:41.224 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-17 23:51:41.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2023-02-17 23:51:41.440 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'categoryMapper' and 'com.li.mapper.CategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.441 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'contentMapper' and 'com.li.mapper.ContentMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.442 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'demoMapper' and 'com.li.mapper.DemoMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.442 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapper' and 'com.li.mapper.DocMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.442 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'docMapperCust' and 'com.li.mapper.DocMapperCust' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.442 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'ebookMapper' and 'com.li.mapper.EbookMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.442 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'testMapper' and 'com.li.mapper.TestMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.442 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'userMapper' and 'com.li.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-02-17 23:51:41.443 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.li.mapper]' package. Please check your configuration.
+2023-02-17 23:51:42.240 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-02-17 23:51:42.251 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-17 23:51:42.253 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-02-17 23:51:42.253 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-17 23:51:42.344 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-02-17 23:51:42.344 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1887 ms
+2023-02-17 23:51:43.325 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-17 23:51:43.743 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2023-02-17 23:51:43.797 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-02-17 23:51:43.821 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-02-17 23:51:43.851 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-17 23:51:43.867 INFO  com.li.Wiki1107NightApplication                   :61   [32m                  [0;39m Started Wiki1107NightApplication in 3.959 seconds (JVM running for 4.838)
+2023-02-17 23:52:05.016 INFO  com.li.job.DocJob                                 :31   [32m281814971250249728[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:52:05.035 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m281814971250249728[0;39m HikariPool-1 - Starting...
+2023-02-17 23:52:05.309 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m281814971250249728[0;39m HikariPool-1 - Start completed.
+2023-02-17 23:52:05.336 INFO  com.li.job.DocJob                                 :34   [32m281814971250249728[0;39m 更新电子书下的文档数据结束，耗时：319毫秒
+2023-02-17 23:52:07.058 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-17 23:52:07.059 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-02-17 23:52:07.067 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2023-02-17 23:52:07.104 INFO  com.li.websocket.WebSocketServer                  :32   [32m                  [0;39m 有新连接：token：iJcd5gTMOz，session id：0，当前连接数：1
+2023-02-17 23:52:10.338 INFO  com.li.service.EbookService                       :47   [32m                  [0;39m 总行数：0
+2023-02-17 23:52:10.339 INFO  com.li.service.EbookService                       :48   [32m                  [0;39m 总页数：0
+2023-02-17 23:52:10.973 INFO  com.li.service.EbookService                       :47   [32m                  [0;39m 总行数：0
+2023-02-17 23:52:10.973 INFO  com.li.service.EbookService                       :48   [32m                  [0;39m 总页数：0
+2023-02-17 23:52:11.549 INFO  com.li.service.EbookService                       :47   [32m                  [0;39m 总行数：1
+2023-02-17 23:52:11.549 INFO  com.li.service.EbookService                       :48   [32m                  [0;39m 总页数：1
+2023-02-17 23:52:16.111 INFO  com.li.utils.RedisUtil                            :31   [32m                  [0;39m key不存在，放入：DOC_VOTE_5_null，过期 5000 秒
+2023-02-17 23:52:16.168 INFO  com.li.websocket.WebSocketServer                  :71   [32m                  [0;39m 推送消息：iJcd5gTMOz，内容：【文档2.2】被点赞！
+2023-02-17 23:52:18.639 INFO  com.li.websocket.WebSocketServer                  :41   [32m                  [0;39m 连接关闭，token：iJcd5gTMOz，session id：0！当前连接数：0
+2023-02-17 23:52:35.010 INFO  com.li.job.DocJob                                 :31   [32m281815097058398208[0;39m 更新电子书下的文档数据开始
+2023-02-17 23:52:35.018 INFO  com.li.job.DocJob                                 :34   [32m281815097058398208[0;39m 更新电子书下的文档数据结束，耗时：8毫秒
